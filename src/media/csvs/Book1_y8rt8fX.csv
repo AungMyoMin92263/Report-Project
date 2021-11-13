@@ -1,0 +1,9 @@
+﻿Pos,Transaction id,Product,Quantity,Customer,Date
+1,E100,TV,1,Test Customer,2021-03-01
+2,E100,Laptop,3,Test Customer,2021-03-01
+3,E200,TV,2,Test Customer,2021-03-01
+4,E300,TV,1,Test Customer 1,2021-03-01
+5,E300,Laptop,5,Customer new1,2021-03-01
+6,E300,TV,1,ABC,2021-03-01
+7,E400,TV,2,ABC,2021-03-01
+8,E500,Smartwatch,3,Grab,2021-03-01

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>PDF {{obj.name}}</title>
+  <style>
+      .image {
+          width:100%;
+          height:auto
+      }
+  </style>
+</head>
+<body>
+    <h1>{{obj.name}}</h1>
+    <hr>
+    {% if object.image %} 
+        <img src="{{obj.image.path}}" class ="image" alt="obj.name">
+    {% endif %}
+    <br>
+    <h2>Remark</h2>
+    <p>{{obj.remarks}}</p>
+    <hr>
+    <p>author: {{obj.author.user.username}}</p>
+    <p>created: {{obj.created}}</p>
+
+
+</body>
+</html>

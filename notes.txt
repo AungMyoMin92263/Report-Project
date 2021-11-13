@@ -1,0 +1,8 @@
+Model - View - Templates in django
+
+There are two views:
+1. function views 
+2.class based views
+
+
+function views are more readable than class based views
